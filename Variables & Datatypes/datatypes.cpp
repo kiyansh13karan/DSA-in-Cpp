@@ -47,20 +47,20 @@ Data types in C++ define the type of data a variable can hold. They help the com
 
 
 #include <iostream>
-using namespace std;
+using namespace std ;
 
 int main() {
-    int age = 25;
-    float height = 5.9f;
-    char grade = 'A';
-    bool pass = true;
-    double pi = 3.1415926535;
+    int age = 25 ;
+    float height = 5.9f ;
+    char grade = 'A' ;
+    bool pass = true ;
+    double pi = 3.1415926535 ;
 
-    cout << "Age: " << age << "\n";
-    cout << "Height: " << height << "\n";
-    cout << "Grade: " << grade << "\n";
-    cout << "Passed: " << pass << "\n";
-    cout << "Pi: " << pi << "\n";
+    cout << "Age: " << age << "\n" ;
+    cout << "Height: " << height << "\n" ;
+    cout << "Grade: " << grade << "\n" ;
+    cout << "Passed: " << pass << "\n" ;
+    cout << "Pi: " << pi << "\n" ;
 
-    return 0;
+    return 0 ;
 }
