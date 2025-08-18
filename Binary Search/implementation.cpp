@@ -5,7 +5,7 @@ int binarysearch(int arr[] , int n , int key) {
     int start = 0 ; 
     int end = n-1 ;
     
-    int mid = (start + end) / 2 ; 
+    int mid = start + (end - start)/2 ; 
     while(start <= end) {
         if(arr[mid] == key) {
             cout << "Element found at index: " << mid << endl ;
@@ -17,7 +17,7 @@ int binarysearch(int arr[] , int n , int key) {
         else {
             end = mid - 1 ; // Search in the left half
         }
-        mid = (start + end) / 2 ; // Update mid
+        mid = start + (end - start)/2 ; // Update mid
     }
     cout << "Element not found" << endl ;
     return -1 ; // Element not found
