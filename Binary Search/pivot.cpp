@@ -15,7 +15,7 @@ int getpivot(int arr[] , int n) {
         }
         mid = s + (e-s)/2 ; // Update mid
     }
-    return s ; 
+    return s ;  
 }
 
 int main() {
